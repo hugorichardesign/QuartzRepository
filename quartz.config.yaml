@@ -1,12 +1,12 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: Bonequinhus
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics:
-    provider: plausible
-  locale: en-US
+    provider: none
+  locale: pt-BR
   baseUrl: hugorichardesign.github.io/QuartzRepository
   ignorePatterns:
     - private
@@ -113,7 +113,7 @@ plugins:
   - source: github:quartz-community/remove-draft
     enabled: true
   - source: github:quartz-community/explicit-publish
-    enabled: false
+    enabled: true
   - source: github:quartz-community/unlisted-pages
     enabled: true
     options: {}
@@ -225,6 +225,7 @@ plugins:
     enabled: true
     options:
       links:
+	Instagram: https://https://www.instagram.com/bunequinhus/
         GitHub: https://github.com/jackyzha0/quartz
         Discord Community: https://discord.gg/cRFFHYye7t
   - source: github:quartz-community/recent-notes
